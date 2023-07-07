@@ -1,0 +1,38 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(85, 248, 207);
+}
+
+body header {
+    background-color: rgb(85, 248, 207);
+}
+
+#nav {
+    background-color: rgb(59, 172, 144);
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next, 
+.carousel-indicators  {
+    display: none;
+}
+
+#separador {
+    height: 45px;
+}
+
+
+body footer {
+    background-color: rgb(59, 172, 144);
+    width: 100%;
+}
