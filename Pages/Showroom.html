@@ -8,7 +8,10 @@
     <title>Gurdwara</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/style.css">
 </head>
 
 <body class="container-fluid">
@@ -68,18 +71,22 @@
 
         <div class="container-fluid">
 
+            
+            <!-- Linea para dejar espacio superior -->
             <div class="row">
                 <div class="col-12 mt-5"></div>
             </div>
 
-            <div class="row d-flex align-items-center">
-                <div class="col-3">
+            <!-- Primer linea de Main -->
+
+            <div class="row d-flex justify-content-evenly align-items-center">
+                <div class="col-3 d-none d-md-block">
                     <div class="card p-2 m-2 rounded-3" style="width: 100%;">
                         <img class="rounded-3" src="../Assets/Img/Estructura/Showroom_2.jpeg" class="card-img-top"
                             alt="Imagen de Showroom">
                     </div>
                 </div>
-                <div class="col-6 justify-content-between">
+                <div class="col-12 col-md-6">
                     <div class="card p-2 m-2 rounded-3" style="width: 100%;">
                         <img class="rounded-3" src="../Assets/Img/Estructura/Showroom.jpeg" class="card-img-top"
                             alt="Imagen de Showroom">
@@ -92,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-none d-md-block">
                     <div class="card p-2 m-2 rounded-3" style="width: 100%;">
                         <img class="rounded-3" src="../Assets/Img/Estructura/Showroom_3.jpeg" class="card-img-top"
                             alt="Imagen de Showroom">
@@ -100,33 +107,36 @@
                 </div>
             </div>
 
-            <div class="row justify-content-evenly d-flex align-items-center">
-                <div class="col-3">
+            <!-- Segunda linea de Main -->
+
+            <div class="row justify-content-evenly d-flex align-items-start">
+                <div class="col-3 d-none d-md-block">
                     <div class="card p-2 m-2 rounded-3" style="width: 100%;">
                         <img class="rounded-3" src="../Assets/Img/Estructura/Showroom_4.jpeg" class="card-img-top"
                             alt="Imagen de Showroom">
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-10 col-md-6 col-lg-5 ">
                     <div class="card p-3 m-2 rounded-3" style="width: 100%;">
                         <img class="rounded-3" src="../Assets/Img/Estructura/ubicacion.png" class="card-img-top"
                             alt="ubicacion del showroom">
                         <div class="card-body">
                             <p class="card-text text-center">Dejanos tu email o whatsapp y te estaremos enviando la
                                 dirección de nuestro showroom</p>
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select mt-1" aria-label="Default select example">
                                 <option selected>Medio de Contacto</option>
                                 <option value="Whatsapp">Whatsapp</option>
                                 <option value="Email">Email</option>
                             </select>
-                            <div class="form-floating">
+                            <div class="form-floating mt-1">
                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                <label for="floatingTextarea">Comments</label>
-                              </div>
+                                <label for="floatingTextarea">Número de Whatsapp o Email</label>
+                            </div>
+                            <button class="btn my-1 px-2 border border-1 rounded-3" type="submit">Enviar</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 d-none d-md-block">
                     <div class="card p-2 m-2 rounded-3" style="width: 100%;">
                         <img class="rounded-3" src="../Assets/Img/Estructura/Showroom_5.jpeg" class="card-img-top"
                             alt="Imagen de Showroom">

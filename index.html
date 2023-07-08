@@ -8,7 +8,10 @@
     <title>Gurdwara</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/style.css">
 </head>
 
 <body class="container-fluid">
@@ -16,9 +19,10 @@
     <!--     Header     -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid fixed-top" id="nav">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./Assets/Img/Estructura/Gurdwara_logo_2.png" alt="Bootstrap" width="140" height="48">
+            <div class="container-fluid fixed-top rounded-3 mx-2 my-1" id="nav">
+                <a class="navbar- ms-3 py-1" href="./index.html">
+                    <img src="./Assets/Img/Estructura/Gurdwara_logo_2.png" alt="Logo tipografico Gurdwara" width="140"
+                        height="48">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -27,28 +31,28 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 text-center">
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 text-center">
                             <a class="nav-link" aria-current="page" href="https://www.gurdwaraaccesorios.com.ar/">Tienda
                                 Online</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 text-center">
                             <a class="nav-link" href="./Pages/Quienes_somos.html">¿Quienes Somos?</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 text-center">
                             <a class="nav-link" href="./Pages/Showroom.html">Showroom</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="nav-item px-2 text-center">
                             <a class="nav-link" href="./Pages/Contacto.html">Contacto</a>
                         </li>
-                        <li class="nav-item dropdown px-2">
+                        <li class="nav-item dropdown px-2 text-center">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Productos según intención
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu text-center">
                                 <li><a class="dropdown-item" href="./Pages/amor.html">Amor</a></li>
                                 <li><a class="dropdown-item" href="./Pages/abundancia.html">Abundancia</a></li>
                                 <li><a class="dropdown-item" href="./Pages/anti_envidia.html">Anti-envidia</a></li>
@@ -66,39 +70,54 @@
 
     <main class="container">
 
-        <!----------------   Acordion   ----------------->
+        <!-- Banner de bienvenida -->
 
-        <div class="row mt-5">
-            <div class="col-xl-3"></div>
-            <div class="col-xl-6  m-3 ">
+        <div class="row justify-content-center mt-5">
+            <div class="card text-dark py-2">
+                <img src="./Assets/Img/Estructura/Cabecera.jpeg" class="card-img" alt="Imagen de caecera Index">
+                <div class="card-img-overlay  d-flex align-items-center justify-content-center">
+                    <div class="d-inline-block px-1 bg-light bg-opacity-50 rounded-3">
+                        <h1 class="card-title">Bienvenidos a Gurdwara</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Acordion  -->
+
+        <div class="row">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-8  m-3 ">
                 <div class="accordion accordion-flush border border-secondary border-1" id="accordionFlushExample">
                     <div class="accordion-item border border-secondary border-1">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
+                                aria-controls="flush-collapseOne" id="Acordion">
                                 Te proponemos una nueva forma de encontrar lo que necesitas... Descubrila
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body text-center">En esta página en vez de encontrar los productos ordenados por
+                            <div class="accordion-body text-center">En esta página en vez de encontrar los productos
+                                ordenados por
                                 tipo, los vas a encontrar por el tipo de energia que trabajan. Así una vez que sepas que
-                                necesitas trabajar vas directo a lo que estas buscando y encontras nuestras magias listas para que las disfrutes.</div>
+                                necesitas trabajar vas directo a lo que estas buscando y encontras nuestras magias
+                                listas para que las disfrutes.</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3"></div>
+            <div class="col-xl-2"></div>
         </div>
 
-        <!-----------------     Carousel    ------------------>
+        <!--   Carousel   -->
 
         <div class="row d-flex justify-content-around mt-4">
 
-            <!-----------------     Carousel 1   ------------------>
+            <!--     Carousel 1   -->
 
-            <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
+            <div class="col-5 col-xl-3 p-2 mx-2 my-4 border border-1 border-black rounded-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -110,8 +129,8 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/Abundancia.jpeg " class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Abundancia"></a>                            
+                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/Abundancia.jpeg "
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/abundancia.html">
@@ -121,8 +140,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/sticker lucky.jpg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Abundancia"></a>                            
+                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/sticker lucky.jpg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/abundancia.html">
@@ -131,7 +150,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item"><a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/suerte.jpg" class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>                            
+                        <div class="carousel-item"><a href="./Pages/abundancia.html"><img
+                                    src="./Assets/Img/Productos/suerte.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de muestra - Abundancia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/abundancia.html">
@@ -154,9 +175,9 @@
                 </div>
             </div>
 
-            <!-----------------     Carousel 2   ------------------>
+            <!--     Carousel 2   -->
 
-            <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
+            <div class="col-5 col-xl-3 p-2 mx-2 my-4 border border-1 border-black rounded-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -168,8 +189,8 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/amor.jpeg " class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Amor"></a>                            
+                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/amor.jpeg "
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Amor"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/amor.html">
@@ -179,8 +200,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Anillo.Love.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Amor"></a>                            
+                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Anillo.Love.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Amor"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/amor.html">
@@ -190,8 +211,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Aro.Love.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Amor"></a>                            
+                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Aro.Love.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Amor"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/amor.html">
@@ -214,9 +235,9 @@
                 </div>
             </div>
 
-            <!-----------------     Carousel 3   ------------------>
+            <!--     Carousel 3   -->
 
-            <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
+            <div class="col-5 col-xl-3 p-2 mx-2 my-4 border border-1 border-black rounded-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -228,8 +249,8 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/anti-envidia.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/anti-envidia.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/anti_envidia.html">
@@ -239,8 +260,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Cuelga.Llaves.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Cuelga.Llaves.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/anti_envidia.html">
@@ -250,8 +271,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Collar.amuleto.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Collar.amuleto.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/anti_envidia.html">
@@ -274,129 +295,9 @@
                 </div>
             </div>
 
-            <!-----------------     Carousel 4   ------------------>
+            <!--     Carousel 4   -->
 
-            <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/Abundancia.jpeg " class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Abundancia"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="./Pages/abundancia.html">
-                                    <h2>Abundancia</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/sticker lucky.jpg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Abundancia"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="./Pages/abundancia.html">
-                                    <h2>Abundancia</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/suerte.jpg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Abundancia"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="./Pages/abundancia.html">
-                                    <h2>Abundancia</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                </div>
-            </div>
-
-            <!-----------------     Carousel 5   ------------------>
-
-            <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/amor.jpeg " class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Amor"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="./Pages/amor.html">
-                                    <h2>Amor</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Anillo.Love.jpeg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Amor"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="./Pages/amor.html">
-                                    <h2>Amor</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Aro.Love.jpeg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Amor"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="./Pages/amor.html">
-                                    <h2>Amor</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                </div>
-            </div>
-
-            <!-----------------     Carousel 6   ------------------>
-
-            <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
+            <div class="col-5 col-xl-3 p-2 mx-2 my-4 border border-1 border-black rounded-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -408,8 +309,128 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/anti-envidia.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/Abundancia.jpeg "
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="./Pages/abundancia.html">
+                                        <h2>Abundancia</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/sticker lucky.jpg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="./Pages/abundancia.html">
+                                        <h2>Abundancia</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./Pages/abundancia.html"><img src="./Assets/Img/Productos/suerte.jpg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="./Pages/abundancia.html">
+                                        <h2>Abundancia</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--     Carousel 5   -->
+
+            <div class="col-5 col-xl-3 p-2 mx-2 my-4 border border-1 border-black rounded-3">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/amor.jpeg "
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Amor"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="./Pages/amor.html">
+                                        <h2>Amor</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Anillo.Love.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Amor"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="./Pages/amor.html">
+                                        <h2>Amor</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./Pages/amor.html"><img src="./Assets/Img/Productos/Aro.Love.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Amor"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="./Pages/amor.html">
+                                        <h2>Amor</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--    Carousel 6   -->
+
+            <div class="col-5 col-xl-3 p-2 mx-2 my-4 border border-1 border-black rounded-3">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/anti-envidia.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/anti_envidia.html">
@@ -419,8 +440,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Cuelga.Llaves.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Cuelga.Llaves.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/anti_envidia.html">
@@ -430,8 +451,8 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Collar.amuleto.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="./Pages/anti_envidia.html"><img src="./Assets/Img/Productos/Collar.amuleto.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
                                     <a class="links" href="./Pages/anti_envidia.html">
@@ -455,26 +476,26 @@
             </div>
         </div>
 
-        <!--------------  Iconos de whatsapp e Instagram Fixed ----------------->
+        <!--  Iconos de whatsapp e Instagram Fixed -->
 
         <div class="fixed-bottom d-flex justify-content-between">
-            <a class="p-3 d-md-none" href="#"><img src="./Assets/Img/Estructura/logo.whatsapp.png" alt="Logo de whatsapp"
-                    height="50px"></a>
-            <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img src="./Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram"
-                    height="50px"></a>
+            <a class="p-3 d-md-none" href="#"><img src="./Assets/Img/Estructura/logo.whatsapp.png"
+                    alt="Logo de whatsapp" height="50px"></a>
+            <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img
+                    src="./Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram" height="50px"></a>
         </div>
 
         <div class="fixed-bottom d-flex justify-content-between">
-            <a class="p-4 mx-2 d-none d-md-block" href="#"><img src="./Assets/Img/Estructura/logo.whatsapp.png" alt="Logo de whatsapp"
-                    height="100px"></a>
-            <a class="p-4 mx-2 d-none d-md-block" href="https://www.instagram.com/gurdwara.accesorios/"><img src="./Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram"
-                    height="100px"></a>
+            <a class="p-4 mx-2 d-none d-md-block" href="#"><img src="./Assets/Img/Estructura/logo.whatsapp.png"
+                    alt="Logo de whatsapp" height="100px"></a>
+            <a class="p-4 mx-2 d-none d-md-block" href="https://www.instagram.com/gurdwara.accesorios/"><img
+                    src="./Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram" height="100px"></a>
         </div>
 
     </main>
-    <!---------------------------   Footer   --------------------------->
+    <!--   Footer   -->
 
-    <footer class="container-fluid m-1 py-1">
+    <footer class="container-fluid m-1 py-1 rounded-3">
         <div class="row mt-4 text-center">
             <h1>🧿¡Gracias por visitarnos!🧿</h1>
         </div>
