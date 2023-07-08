@@ -15,8 +15,13 @@ body {
     background-color: rgba(178, 132, 215, 0.949);
 }
 
+#color_dropdown {
+    background-color: rgba(66, 192, 160, 0.926);
+}
+
 #Acordion {
     font-size: 1.4rem;
+    background-color: rgb(66, 192, 161) ;
 }
 
 .links {
@@ -36,6 +41,5 @@ body {
 
 
 body footer {
-    background-color: rgba(59, 172, 144, 0.926);
-    width: 100%;
+    background-color: rgba(66, 192, 160, 0.926);
 }
