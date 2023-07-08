@@ -15,6 +15,14 @@ body {
     background-color: rgba(178, 132, 215, 0.949);
 }
 
+#Nav_link_hover:hover {
+    color: rgb(218, 189, 242);
+}
+
+#dropdown_link_hover:hover {
+    background-color: rgba(178, 132, 215, 0.949) ;
+}
+
 #color_dropdown {
     background-color: rgba(66, 192, 160, 0.926);
 }
