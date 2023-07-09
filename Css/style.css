@@ -32,6 +32,12 @@ body {
     background-color: rgb(66, 192, 161) ;
 }
 
+#flush-collapseOne {
+    background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50%.jpeg);
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
 .links {
     text-decoration: none;
     color: black;

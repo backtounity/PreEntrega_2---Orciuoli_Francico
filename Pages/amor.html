@@ -8,7 +8,7 @@
     <title>Gurdwara</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Css/style.css">
@@ -35,11 +35,13 @@
                             <a class="nav-link" id="Nav_link_hover" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item px-2 text-center">
-                            <a class="nav-link" id="Nav_link_hover" aria-current="page" href="https://www.gurdwaraaccesorios.com.ar/">Tienda
+                            <a class="nav-link" id="Nav_link_hover" aria-current="page"
+                                href="https://www.gurdwaraaccesorios.com.ar/">Tienda
                                 Online</a>
                         </li>
                         <li class="nav-item px-2 text-center">
-                            <a class="nav-link" id="Nav_link_hover" href="../Pages/Quienes_somos.html">¿Quienes Somos?</a>
+                            <a class="nav-link" id="Nav_link_hover" href="../Pages/Quienes_somos.html">¿Quienes
+                                Somos?</a>
                         </li>
                         <li class="nav-item px-2 text-center">
                             <a class="nav-link" id="Nav_link_hover" href="../Pages/Showroom.html">Showroom</a>
@@ -48,18 +50,21 @@
                             <a class="nav-link" id="Nav_link_hover" href="../Pages/Contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item dropdown px-2 text-center">
-                            <a class="nav-link dropdown-toggle" id="Nav_link_hover" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="Nav_link_hover" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos según intención
                             </a>
                             <ul class="dropdown-menu text-center" id="color_dropdown">
-                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover" href="../Pages/amor.html">Amor</a></li>
-                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover" href="../Pages/abundancia.html">Abundancia</a></li>
-                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover" href="../Pages/anti_envidia.html">Anti-envidia</a></li>
+                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"
+                                        href="../Pages/amor.html">Amor</a></li>
+                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"
+                                        href="../Pages/abundancia.html">Abundancia</a></li>
+                                <li><a class="dropdown-item rounded-3" id="dropdown_link_hover"
+                                        href="../Pages/Protección.html">Protección</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex pb-2" role="search">
                         <input class="form-control me-2" type="search" placeholder="🔎" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
@@ -68,30 +73,38 @@
         </nav>
     </header>
 
+
     <main class="container">
+
+        <!-- Linea para dejar espacio superior -->
+        <div class="row">
+            <div class="col-12 mt-5"></div>
+        </div>
 
         <!----------------   Acordion   ----------------->
 
-        <div class="row mt-5">
-            <div class="col-xl-3"></div>
-            <div class="col-xl-6  m-3 ">
-                <div class="accordion accordion-flush border border-secondary border-1" id="accordionFlushExample">
-                    <div class="accordion-item border border-secondary border-1">
+        <div class="row">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-8  m-3">
+                <div class="accordion accordion-flush border border-secondary border-1 rounded-3"
+                    id="accordionFlushExample">
+                    <div class="accordion-item border border-secondary border-1 rounded-3">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                Aca va a ir el nombre de la energia que queres trabajar
+                            <button class="accordion-button collapsed rounded-3 text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne" id="Acordion">
+                                All you need is Love...
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Acá se va a explicar los beneficios de trabajar esa energia</div>
+                            <div class="accordion-body text-center">No hay palabras que describan lo inmensa que es la
+                                palabra amor"</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3"></div>
+            <div class="col-xl-2"></div>
         </div>
 
         <!-----------------     Carousel    ------------------>
@@ -112,32 +125,37 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="../Pages/abundancia.html"><img src="../Assets/Img/Productos/Abundancia.jpeg " class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Abundancia"></a>                            
+                            <a href="https://www.gurdwaraaccesorios.com.ar/anillos/plata/anillo-protect"><img
+                                    src="../Assets/Img/Productos/pulsera_tempo.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/abundancia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links" href="https://www.gurdwaraaccesorios.com.ar/anillos/plata/anillo-protect">
+                                        <h2>Pulsera Tempo</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/abundancia.html"><img src="../Assets/Img/Productos/sticker lucky.jpg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Abundancia"></a>                            
+                            <a href="https://www.gurdwaraaccesorios.com.ar/anillos/plata/anillo-protect"><img
+                                    src="../Assets/Img/Productos/pulsera_tempo_2.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/abundancia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links" href="https://www.gurdwaraaccesorios.com.ar/anillos/plata/anillo-protect">
+                                        <h2>Pulsera Tempo</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item"><a href="../Pages/abundancia.html"><img src="../Assets/Img/Productos/suerte.jpg" class="d-block w-100 rounded-3" alt="imagen de muestra - Abundancia"></a>                            
+                        <div class="carousel-item"><a
+                                href="https://www.gurdwaraaccesorios.com.ar/anillos/plata/anillo-protect"><img
+                                    src="../Assets/Img/Productos/pulsera_tempo_3.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/abundancia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links" href="https://www.gurdwaraaccesorios.com.ar/anillos/plata/anillo-protect">
+                                        <h2>Pulsera Tempo</h2>
                                     </a>
                                 </div>
                             </div>
@@ -170,34 +188,43 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="../Pages/amor.html"><img src="../Assets/Img/Productos/amor.jpeg " class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Amor"></a>                            
+                            <a
+                                href="https://www.gurdwaraaccesorios.com.ar/sahumado/sahumerios/sagrada-madre-rosas-y-olibano"><img
+                                    src="../Assets/Img/Productos/Sahumerio_rosas_olibano.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/amor.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/sahumado/sahumerios/sagrada-madre-rosas-y-olibano">
+                                        <h2>Sahumerios de Rosas</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/amor.html"><img src="../Assets/Img/Productos/Anillo.Love.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Amor"></a>                            
+                            <a
+                                href="https://www.gurdwaraaccesorios.com.ar/sahumado/sahumerios/sagrada-madre-rosas-y-olibano"><img
+                                    src="../Assets/Img/Productos/Sahumerio_rosas_olibano_2.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/amor.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/sahumado/sahumerios/sagrada-madre-rosas-y-olibano">
+                                        <h2>Sahumerios de Rosas</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/amor.html"><img src="../Assets/Img/Productos/Aro.Love.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Amor"></a>                            
+                            <a
+                                href="https://www.gurdwaraaccesorios.com.ar/sahumado/sahumerios/sagrada-madre-rosas-y-olibano"><img
+                                    src="../Assets/Img/Productos/Sahumerio_rosas_olibano.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/amor.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/sahumado/sahumerios/sagrada-madre-rosas-y-olibano">
+                                        <h2>Sahumerios de Rosas</h2>
                                     </a>
                                 </div>
                             </div>
@@ -230,34 +257,43 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="../Pages/anti_envidia.html"><img src="../Assets/Img/Productos/anti-envidia.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a
+                                href="https://www.gurdwaraaccesorios.com.ar/sahumado/perlas-y-sahumerios-en-polvo/perlas-aromaticas-rosas"><img
+                                    src="../Assets/Img/Productos/Perlas_rosas.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/anti_envidia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/sahumado/perlas-y-sahumerios-en-polvo/perlas-aromaticas-rosas">
+                                        <h2>Perlas de Rosas</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/anti_envidia.html"><img src="../Assets/Img/Productos/Cuelga.Llaves.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a
+                                href="https://www.gurdwaraaccesorios.com.ar/sahumado/perlas-y-sahumerios-en-polvo/perlas-aromaticas-rosas"><img
+                                    src="../Assets/Img/Productos/Perlas_rosas.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/anti_envidia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/sahumado/perlas-y-sahumerios-en-polvo/perlas-aromaticas-rosas">
+                                        <h2>Perlas de Rosas</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/anti_envidia.html"><img src="../Assets/Img/Productos/Collar.amuleto.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a
+                                href="https://www.gurdwaraaccesorios.com.ar/sahumado/perlas-y-sahumerios-en-polvo/perlas-aromaticas-rosas"><img
+                                    src="../Assets/Img/Productos/Perlas_rosas.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de muestra - Anti-Envidia"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/anti_envidia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/sahumado/perlas-y-sahumerios-en-polvo/perlas-aromaticas-rosas">
+                                        <h2>Perlas de Rosas</h2>
                                     </a>
                                 </div>
                             </div>
@@ -280,59 +316,65 @@
 
             <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="../Pages/abundancia.html"><img src="../Assets/Img/Productos/Abundancia.jpeg " class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Abundancia"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="../Pages/abundancia.html">
-                                    <h2>Producto Ejemplo</h2>
-                                </a>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.gurdwaraaccesorios.com.ar/collares/collares-de-plata/collar-self-love"><img
+                                    src="../Assets/Img/Productos/collar_self_love.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/collares/collares-de-plata/collar-self-love">
+                                        <h2>Collar Self Love</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.gurdwaraaccesorios.com.ar/collares/collares-de-plata/collar-self-love"><img
+                                    src="../Assets/Img/Productos/collar_self_love_2.jpeg"
+                                    class="d-block w-100 rounded-3" alt="imagen de producto"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/collares/collares-de-plata/collar-self-love">
+                                        <h2>Collar Self Love</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.gurdwaraaccesorios.com.ar/collares/collares-de-plata/collar-self-love"><img
+                                    src="../Assets/Img/Productos/collar_self_love.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/collares/collares-de-plata/collar-self-love">
+                                        <h2>Collar Self Love</h2>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <a href="../Pages/abundancia.html"><img src="../Assets/Img/Productos/sticker lucky.jpg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Abundancia"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="../Pages/abundancia.html">
-                                    <h2>Producto Ejemplo</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="../Pages/abundancia.html"><img src="../Assets/Img/Productos/suerte.jpg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Abundancia"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="../Pages/abundancia.html">
-                                    <h2>Producto Ejemplo</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
 
@@ -340,59 +382,62 @@
 
             <div class="col-5 col-xl-3 p-1 mx-2 my-4 border border-2 border-black rounded-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="../Pages/amor.html"><img src="../Assets/Img/Productos/amor.jpeg " class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Amor"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="../Pages/amor.html">
-                                    <h2>Producto Ejemplo</h2>
-                                </a>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.gurdwaraaccesorios.com.ar/deco/atrapa-sol-love"><img
+                                    src="../Assets/Img/Productos/Atrapasol_love.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="https://www.gurdwaraaccesorios.com.ar/deco/atrapa-sol-love">
+                                        <h2>Atrapa Sol Love</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.gurdwaraaccesorios.com.ar/deco/atrapa-sol-love"><img
+                                    src="../Assets/Img/Productos/Atrapasol_love_2.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="https://www.gurdwaraaccesorios.com.ar/deco/atrapa-sol-love">
+                                        <h2>Atrapa Sol Love</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.gurdwaraaccesorios.com.ar/deco/atrapa-sol-love"><img
+                                    src="../Assets/Img/Productos/Atrapasol_love_3.jpg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
+                                    <a class="links" href="https://www.gurdwaraaccesorios.com.ar/deco/atrapa-sol-love">
+                                        <h2>Atrapa Sol Love</h2>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <a href="../Pages/amor.html"><img src="../Assets/Img/Productos/Anillo.Love.jpeg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Amor"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="../Pages/amor.html">
-                                    <h2>Producto Ejemplo</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="../Pages/amor.html"><img src="../Assets/Img/Productos/Aro.Love.jpeg" class="d-block w-100 rounded-3"
-                            alt="imagen de muestra - Amor"></a>                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                <a class="links" href="../Pages/amor.html">
-                                    <h2>Producto Ejemplo</h2>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
 
@@ -410,34 +455,40 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="../Pages/anti_envidia.html"><img src="../Assets/Img/Productos/anti-envidia.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="https://www.gurdwaraaccesorios.com.ar/aros-miniatura/bano-de-oro/aro-lovely-eye"><img
+                                    src="../Assets/Img/Productos/Aro_lovely-eye.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/anti_envidia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/aros-miniatura/bano-de-oro/aro-lovely-eye">
+                                        <h2>Aro Lovely Eye</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/anti_envidia.html"><img src="../Assets/Img/Productos/Cuelga.Llaves.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="https://www.gurdwaraaccesorios.com.ar/aros-miniatura/bano-de-oro/aro-lovely-eye"><img
+                                    src="../Assets/Img/Productos/Aro_lovely_eye_2.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/anti_envidia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/aros-miniatura/bano-de-oro/aro-lovely-eye">
+                                        <h2>Aro Lovely Eye</h2>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <a href="../Pages/anti_envidia.html"><img src="../Assets/Img/Productos/Collar.amuleto.jpeg" class="d-block w-100 rounded-3"
-                                alt="imagen de muestra - Anti-Envidia"></a>                            
+                            <a href="https://www.gurdwaraaccesorios.com.ar/aros-miniatura/bano-de-oro/aro-lovely-eye"><img
+                                    src="../Assets/Img/Productos/Aro_lovely_eye.jpeg" class="d-block w-100 rounded-3"
+                                    alt="imagen de producto"></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <div class="d-inline-block px-1 bg-light bg-opacity-50 border-2 rounded-3">
-                                    <a class="links" href="../Pages/anti_envidia.html">
-                                        <h2>Producto Ejemplo</h2>
+                                    <a class="links"
+                                        href="https://www.gurdwaraaccesorios.com.ar/aros-miniatura/bano-de-oro/aro-lovely-eye">
+                                        <h2>Aro Lovely Eye</h2>
                                     </a>
                                 </div>
                             </div>
@@ -460,17 +511,17 @@
         <!--------------  Iconos de whatsapp e Instagram Fixed ----------------->
 
         <div class="fixed-bottom d-flex justify-content-between">
-            <a class="p-3 d-md-none" href="#"><img src="../Assets/Img/Estructura/logo.whatsapp.png" alt="Logo de whatsapp"
-                    height="50px"></a>
-            <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img src="../Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram"
-                    height="50px"></a>
+            <a class="p-3 d-md-none" href="#"><img src="../Assets/Img/Estructura/logo.whatsapp.png"
+                    alt="Logo de whatsapp" height="50px"></a>
+            <a class="p-3 d-md-none" href="https://www.instagram.com/gurdwara.accesorios/"><img
+                    src="../Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram" height="50px"></a>
         </div>
 
         <div class="fixed-bottom d-flex justify-content-between">
-            <a class="p-4 mx-2 d-none d-md-block" href="#"><img src="../Assets/Img/Estructura/logo.whatsapp.png" alt="Logo de whatsapp"
-                    height="100px"></a>
-            <a class="p-4 mx-2 d-none d-md-block" href="https://www.instagram.com/gurdwara.accesorios/"><img src="../Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram"
-                    height="100px"></a>
+            <a class="p-4 mx-2 d-none d-md-block" href="#"><img src="../Assets/Img/Estructura/logo.whatsapp.png"
+                    alt="Logo de whatsapp" height="100px"></a>
+            <a class="p-4 mx-2 d-none d-md-block" href="https://www.instagram.com/gurdwara.accesorios/"><img
+                    src="../Assets/Img/Estructura/logo.instagram.png" alt="Logo de instagram" height="100px"></a>
         </div>
 
     </main>
