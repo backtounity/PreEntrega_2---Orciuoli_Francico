@@ -5,15 +5,37 @@
 }
 
 body {
-    background-color: rgb(85, 248, 207);
-}
-
-body header {
-    background-color: rgb(85, 248, 207);
+    background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50%.jpeg);
+    background-repeat: repeat;
+    background-size: 25%;
+    font-family: 'EB Garamond', serif;
 }
 
 #nav {
-    background-color: rgb(59, 172, 144);
+    background-color: rgba(178, 132, 215, 0.949);
+}
+
+#Nav_link_hover:hover {
+    color: rgb(218, 189, 242);
+}
+
+#dropdown_link_hover:hover {
+    background-color: rgba(178, 132, 215, 0.949) ;
+}
+
+#color_dropdown {
+    background-color: rgba(66, 192, 160, 0.926);
+}
+
+#Acordion {
+    font-size: 1.4rem;
+    background-color: rgb(66, 192, 161) ;
+}
+
+#flush-collapseOne {
+    background-image: url(../Assets/Img/Estructura/Amuletos_fondo_opaci-50%.jpeg);
+    background-repeat: repeat;
+    background-size: 25%;
 }
 
 .links {
@@ -33,6 +55,5 @@ body header {
 
 
 body footer {
-    background-color: rgb(59, 172, 144);
-    width: 100%;
+    background-color: rgba(66, 192, 160, 0.926);
 }
